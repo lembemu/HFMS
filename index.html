@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Facility Management System</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">HFMS</div>
+            <ul>
+                <li><a href="#" data-section="dashboard">Dashboard</a></li>
+                <li><a href="#" data-section="administration">Administration</a></li>
+                <li><a href="#" data-section="reports">Reports</a></li>
+                <li><a href="#" data-section="others">Others</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="dashboard-section" class="active-section">
+            <h2>Dashboard</h2>
+            <div class="dashboard-widgets">
+                <div class="widget">
+                    <h3>Crucial Diagnoses</h3>
+                    <div id="crucial-diagnosis-graphs">
+                        <p>Loading diagnosis data...</p>
+                    </div>
+                </div>
+                </div>
+        </section>
+
+        <section id="administration-section" class="hidden-section">
+            <h2>Administration</h2>
+            <div class="admin-controls">
+                <h3>User Management</h3>
+                <ul>
+                    <li><a href="#">Add New User</a></li>
+                    <li><a href="#">View All Users</a></li>
+                    <li><a href="#">Edit User Roles</a></li>
+                    </ul>
+
+                <h3>Configurations</h3>
+                <ul>
+                    <li><a href="#">System Settings</a></li>
+                    <li><a href="#">Facility Information</a></li>
+                    <li><a href="#">Manage Departments</a></li>
+                    </ul>
+                </div>
+        </section>
+
+        <section id="reports-section" class="hidden-section">
+            <h2>Reports</h2>
+            <div class="report-options">
+                <h3>Patient Statistics</h3>
+                <ul>
+                    <li><a href="#">Total Patients</a></li>
+                    <li><a href="#">New vs. Returning Patients</a></li>
+                    <li><a href="#">Patient Demographics</a></li>
+                    </ul>
+
+                <h3>Monthly Reports</h3>
+                <ul>
+                    <li><a href="#">Monthly Summary</a></li>
+                    <li><a href="#">Diagnosis Trends (Monthly)</a></li>
+                    <li><a href="#">Treatment Outcomes (Monthly)</a></li>
+                    </ul>
+                </div>
+        </section>
+
+        <section id="others-section" class="hidden-section">
+            <h2>Others</h2>
+            <p>This section will contain other functionalities or links as needed.</p>
+            </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Health Facility Management System</p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
